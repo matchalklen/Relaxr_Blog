@@ -59,20 +59,32 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+#container{
   width: 960px;
   margin: auto;
 }
 
-header {
+header{
   background-color: #033048;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
 }
 
 #logo{
+  width: 40%;
   font-family: 'Open Sans';
   font-weight: 800;
-  font-size: 24px;
+  font-size: 40px;
   color: white;
+}
+
+nav{
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 24px;
 }
 
 header nav{
@@ -81,6 +93,7 @@ header nav{
 
 header nav a{
   color: #f9e42e;
+  width: 60%;
 }
 
 h1{
@@ -90,14 +103,14 @@ h1{
 h2{
   font-family: 'Open Sans';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 40px;
   color: #033048;
 }
 
 h3{
-   font-family: 'Open Sans';
+  font-family: 'Open Sans';
   font-weight: 800;
-  font-size: 20px;
+  font-size: 32px;
   color: #033048;
 }
 
@@ -107,24 +120,60 @@ main {
 }
 
 #main_container{
-  width:75%;
+  width:700px;
   margin-left: 50px;
   margin-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+article p::first-letter{
+  font-size: 200%;
+}
+
+article p{
+  padding-bottom: 30px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 24px;
 }
 
 .read_more {
   display: block;/*** see_if_can_remove ***/
   text-align: right;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 24px;
 }
 
 #sidebar{
-  width: 25%;
+  width: 240px;
+  padding-top: 40px;
+}
+
+li{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 24px;
+}
+
+nav a{
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 22px;
+}
+
+nav p{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 22px;
 }
 
 footer {
   color: white;
   background-color: #121212;
   text-align: center;
+  height: 240px;
 }
 
 #signup{
@@ -147,8 +196,19 @@ footer {
 }
 
 #footer_logo{
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-family: 'Open Sans';
   font-weight: 800;
-  font-size: 24px;
+  font-size: 30px;
   color: #f9e42e;
+}
+
+#social_media a{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#copyright{
+  padding-top: 30px;
 }
