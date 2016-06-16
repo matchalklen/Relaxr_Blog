@@ -156,6 +156,7 @@ article p {
 
 .read_more {
   display: block;
+  padding-bottom: 20px;
   text-align: right;
   font-family: 'Open Sans';
   font-weight: 600;
